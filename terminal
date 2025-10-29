@@ -10,5 +10,5 @@ roscore
 # Replace /dev/ttyACM0 with your Arduino's serial port.
 rosrun rosserial_python serial_node.py /dev/ttyACM0
 
-# Terminal 3: Publish a message to toggle the LED. Run this command multiple times.
+# Terminal 3: Publish a message to toggle the LED.
 rostopic pub /toggle_led std_msgs/Empty --once
